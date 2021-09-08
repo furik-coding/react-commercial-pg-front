@@ -1,0 +1,28 @@
+.general-info-root {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.edit-info {
+  flex: 1 0 23%;
+  margin: 1vw 1vw 1vw 0;
+  max-width: 30vw;
+}
+
+.address {
+  flex: 1 0 23%;
+  margin: 1vw;
+  max-width: 30vw;
+}
+
+.ymaps-panel {
+  flex: 1 0 48%;
+  margin: 1vw 0 1vw 1vw;
+  max-width: 39vw;
+  overflow: hidden;
+}
+
+.ymaps-panel-internal {
+
+}

@@ -1,0 +1,1 @@
+const cities = [    {value: 'almaty', label: 'Алматы'},    {value: 'astana', label: 'Астана'},    {value: 'shymkent', label: 'Шымкент'}];export default cities

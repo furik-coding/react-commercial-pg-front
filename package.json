@@ -1,0 +1,97 @@
+{
+  "name": "pg-front-ptc",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.2.1",
+    "@date-io/date-fns": "^1.3.13",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/pickers": "^3.2.10",
+    "@syncfusion/ej2-react-dropdowns": "^18.2.47",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "DlhSoft.GanttChartHyperLibrary": "http://DlhSoft.com/Packages/DlhSoft.GanttChartHyperLibrary.tar",
+    "antd": "^4.6.2",
+    "antd-mask-input": "^0.1.14",
+    "apollo-link-http": "^1.5.17",
+    "apollo-upload-client": "^14.1.2",
+    "axios": "^0.19.2",
+    "babel-plugin-transform-react-jsx-source": "^6.22.0",
+    "bootstrap": "^4.5.0",
+    "date-fns": "^2.14.0",
+    "dateformat": "^4.0.0",
+    "excellentexport": "^3.4.3",
+    "flexboxgrid": "^6.3.1",
+    "graphql": "^15.3.0",
+    "interactjs": "^1.9.22",
+    "jquery": "^3.5.1",
+    "moment": "^2.28.0",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-calendar-timeline": "^0.27.0",
+    "react-dom": "^16.13.1",
+    "react-flexbox-grid": "^2.1.2",
+    "react-moment": "^0.9.7",
+    "react-redux": "^7.2.0",
+    "react-resizable": "^1.11.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "react-select": "^3.1.0",
+    "react-select-checked": "^0.1.12",
+    "react-table": "^7.2.2",
+    "react-table-sticky": "^1.1.3",
+    "react-to-print": "^2.11.0",
+    "react-yandex-maps": "^4.5.0",
+    "reactstrap": "^8.5.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "serve": "^11.3.2",
+    "styled-components": "^5.1.1",
+    "tippy.js": "^6.2.7"
+  },
+  "engines": {
+    "node": "13.8.0",
+    "npm": "6.13.6"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "heroku-postbuild": "npm run build",
+    "gulp": "./node_modules/gulp/bin/gulp.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@linways/table-to-excel": "^1.0.4",
+    "@material-ui/icons": "^4.9.1",
+    "clsx": "^1.1.1",
+    "create-react-class": "^15.6.3",
+    "dotenv": "^8.2.0",
+    "fancy-log": "^1.3.3",
+    "gulp": "^4.0.2",
+    "gulp-rsync": "0.0.9",
+    "match-sorter": "^4.2.0",
+    "react-tabs": "^3.1.1",
+    "rimraf": "^3.0.2",
+    "vinyl-ftp": "^0.6.1",
+    "yandex-map-react": "^1.1.1"
+  }
+}

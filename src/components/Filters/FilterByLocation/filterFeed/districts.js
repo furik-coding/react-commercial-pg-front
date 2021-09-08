@@ -1,0 +1,1 @@
+const districts = [    {        value: 'almaty', label: 'Алмалинский',    },    {        value: 'medeu', label: 'Медеский'    },    {        value: 'auez', label: "Ауэзовский"    },    {        value: 'bostan',label: "Бостандыкский"    },];export default districts

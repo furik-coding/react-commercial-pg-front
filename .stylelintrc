@@ -1,0 +1,21 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-prettier/recommended"],
+  "rules": {
+    "prettier/prettier": true,
+    "at-rule-no-unknown": null,
+    "declaration-property-unit-whitelist": {
+      # "font-size": ["em", "rem", "%"],
+      # "/^margin/": ["em", "rem", "%"],
+      # "/^padding/": ["em", "rem", "%"]
+    },
+    "selector-pseudo-element-no-unknown": [true, {
+      ignorePseudoElements: ["ng-deep"]
+    }],
+    "selector-type-no-unknown": [true, {
+      ignore: ["custom-elements", "default-namespace"]
+    }],
+    "string-quotes": "single",
+    "no-descending-specificity": null,
+    "no-empty-source": null
+  }
+}

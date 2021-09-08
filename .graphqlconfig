@@ -1,0 +1,12 @@
+{
+  "name": "Remote Schema",
+  "schemaPath": "remote-schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "Remote PTC DECO GraphQL Endpoint": {
+        "url": "https://z0rel.ddns.net/api/",
+        "introspect": true
+      }
+    }
+  }
+}

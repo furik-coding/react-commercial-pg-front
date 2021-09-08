@@ -1,0 +1,41 @@
+.contentInfo{
+    flex-basis: 4%;
+}
+.resetPadding{
+    padding: 0;
+    margin: 0;
+}
+.ListTitle{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 203px;
+    height: auto;
+}
+.ListTitleInfo{
+    display: flex;
+    justify-content: space-between;
+    margin: 27px 0;
+}
+.ListTitleInfoButton{
+    display: flex;
+    justify-content: flex-end;
+}
+.ListTitleHeader{
+    display: flex;
+}
+.marginLeft10{
+    margin-left: 10px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.BlockWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fixedHeight{
+    height: 555px;
+}
